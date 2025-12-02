@@ -10,9 +10,9 @@ percentage = (total_marks/500)*100
 print(total_marks)
 if(percentage>=80):
     print("Grade A")
-if(percentage>=60 and percentage<80):
+elif(percentage>=60 and percentage<80):
     print("Grade B")
-if(percentage>=40 and percentage<60):
+elif(percentage>=40 and percentage<60):
     print("Grade C")
-if(percentage<40):
+else:
     print("Grade F")
